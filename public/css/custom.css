@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	--indie: 'Indie Flower', cursive;
+	--josefin:  'Josefin Sans', sans-serif;
+	--nunito: 'Nunito', sans-serif;
+}
+.navbar{
+	box-shadow:  none !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+	 font-family: var(--nunito) !important;
+	 word-wrap: break-word;
+}
+.vh-100{
+	height: 100vh;
+}
+.social{
+	font-size: 1.5em;
+}
+#cv-download{
+	background-color: #2A023B;
+	color: #fff;
+}
+#cv-download:hover{
+	background-color: #fff;
+	color: #FFA73D;
+}
+#intro-section h1{
+	/*font-family: var(--indie);*/
+	font-weight: bold;
+	font-size: 2.5em;
+	text-shadow: 1px 2px #000;
+}
+#portfolio-section{
+	min-height: 100vh;
+	height: auto;
+	background-color: #212121;
+}
+#experience-section{
+	min-height: 100vh;
+	height: auto;
+	background-color: #FF6348;
+}
+#education-section{
+	min-height: 100vh;
+	height: auto;
+	background-color: #2A023B;
+}
+#about-section{
+	min-height: 100vh;
+	height: auto;
+}
+#contact-section{
+	min-height: 100vh;
+	height: auto;
+	background-color: #E6E6F9;
+}
+.tag-line{
+	font-family: var(--josefin);
+}
+img{
+	object-fit: contain;
+}
+.center{
+	 margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a{
+	color: #5F2528;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#intro-section{
+	background-image: url('../uploads/img/crop.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#intro-section{
+	background-image: url('../uploads/img/crop.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#intro-section{
+	background-image: url('../uploads/img/COVER.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#intro-section{
+	background-image: url('../uploads/img/COVER2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #FFA62B;
+}
+}
+
+.divider{
+	width: 25%;
+	height: 10px;
+	background-color: #FFA62B;
+	border-radius: 5px;
+}
+.company{
+	width: 100%;
+	height: 100px;
+}
+.profile{
+	width: 300px;
+	height: 300px;
+}
+.skill-container{
+	width: 100%;
+	background-color: 	#E9ECEF;
+border-radius: 5px;
+
+}
+.skill{
+	  text-align: right; /* Right-align text */
+    padding: 5px; /* Add some padding */
+    color: white; /* White text color */
+}
+.skill-70{
+	border-radius: 5px;
+	width: 70%; background-color: #107AF9;
+}
+.skill-30{
+	border-radius: 5px;
+	width: 30%; background-color: #107AF9;
+}
