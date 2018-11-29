@@ -1,184 +1,20 @@
-<div class="container">
-	<div class="divider mb-2"></div>
-	<h2 class="m-0 white-text"><i class="fas fa-laptop-code"></i> Portfolio</h2>
-	<p class="grey-text font-weight-bold">My works</p>
-	<div class="row">
-		<div class="col-lg-3 col-md-4 mb-3">
-			<!-- Card -->
-<div class="card">
-
-  <!-- Card image -->
-  <div class="view overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-    <a href="#!">
-      <div class="mask rgba-white-slight"></div>
-    </a>
+<div class="row">
+  <div class="col-md-6">
+    <h3>Portfolio</h3>
+    <p class="grey-text font-weight-bold">Achievements</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <ul>
+      <li>Responsive</li>
+      <li>Dynamic</li>
+      <li>Seo friendly</li>
+    </ul>
   </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-    <!-- Title -->
-    <h4 class="card-title">Card title</h4>
-     <!-- Button -->
-    <a href="#" class="btn btn-primary btn-sm">Button</a>
+  <div class="col-md-6">
+    <img src="https://cdn-images-1.medium.com/max/1200/1*frC0VgM2etsVCJzJrNMZTQ.png" class="img-fluid d-none d-md-block mx-auto" height="200" width="200">
   </div>
-
-</div>
-<!-- Card -->
-		</div>
-		<div class="col-lg-3 col-md-4 mb-3">
-			<!-- Card -->
-<div class="card">
-
-  <!-- Card image -->
-  <div class="view overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-    <a href="#!">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-
-    <!-- Title -->
-    <h4 class="card-title">Card title</h4>
-     <!-- Button -->
-    <a href="#" class="btn btn-primary btn-sm">Button</a>
-
-  </div>
-
-</div>
-<!-- Card -->
-		</div>
-		<div class="col-lg-3 col-md-4 mb-3">
-			<!-- Card -->
-<div class="card">
-
-  <!-- Card image -->
-  <div class="view overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-    <a href="#!">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-
-    <!-- Title -->
-    <h4 class="card-title">Card title</h4>
-     <!-- Button -->
-    <a href="#" class="btn btn-primary btn-sm">Button</a>
-
-  </div>
-
-</div>
-<!-- Card -->
-		</div>
-		<div class="col-lg-3 col-md-4 mb-3">
-			<!-- Card -->
-<div class="card">
-
-  <!-- Card image -->
-  <div class="view overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-    <a href="#!">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-
-    <!-- Title -->
-    <h4 class="card-title">Card title</h4>
-     <!-- Button -->
-    <a href="#" class="btn btn-primary btn-sm">Button</a>
-
-  </div>
-
-</div>
-<!-- Card -->
-		</div>
-
-		<div class="col-lg-3 col-md-4 mb-3">
-			<!-- Card -->
-<div class="card">
-
-  <!-- Card image -->
-  <div class="view overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-    <a href="#!">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-
-    <!-- Title -->
-    <h4 class="card-title">Card title</h4>
-     <!-- Button -->
-    <a href="#" class="btn btn-primary btn-sm">Button</a>
-
-  </div>
-
-</div>
-<!-- Card -->
-		</div>
-
-				<div class="col-lg-3 col-md-4 mb-3">
-			<!-- Card -->
-<div class="card">
-
-  <!-- Card image -->
-  <div class="view overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-    <a href="#!">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-
-    <!-- Title -->
-    <h4 class="card-title">Card title</h4>
-     <!-- Button -->
-    <a href="#" class="btn btn-primary btn-sm">Button</a>
-
-  </div>
-
-</div>
-<!-- Card -->
-		</div>
-
-				<div class="col-lg-3 col-md-4 mb-3">
-			<!-- Card -->
-<div class="card">
-
-  <!-- Card image -->
-  <div class="view overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-    <a href="#!">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-
-    <!-- Title -->
-    <h4 class="card-title">Card title</h4>
-     <!-- Button -->
-    <a href="#" class="btn btn-primary btn-sm">Button</a>
-
-  </div>
-
-</div>
-<!-- Card -->
-		</div>
-
-	</div>
 </div>

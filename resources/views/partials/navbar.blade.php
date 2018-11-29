@@ -9,28 +9,24 @@
     </a>
     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="#intro-section">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-uppercase" href="#intro-section">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#portfolio-section">Portfolio</a>
+        <a class="nav-link text-uppercase" href="#portfolio-section">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#intro-section">Experience</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#intro-section">Education</a>
+        <a class="nav-link text-uppercase" href="#intro-section">Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link text-uppercase" href="#intro-section">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-uppercase" href="#">About</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link text-uppercase" href="#">Contact</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0 btn-sm" type="submit"><i class="fas fa-search"></i></button>
-    </form>
   </div>
 </nav>
 </div>

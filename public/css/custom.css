@@ -3,10 +3,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+	font-size: 14px;
+}
 :root{
 	--indie: 'Indie Flower', cursive;
 	--josefin:  'Josefin Sans', sans-serif;
 	--nunito: 'Nunito', sans-serif;
+	--osans: 'Open Sans', sans-serif;
 }
 .navbar{
 	box-shadow:  none !important;
@@ -15,17 +20,33 @@ html {
   scroll-behavior: smooth;
 }
 body{
-	 font-family: var(--nunito) !important;
+	 font-family: var(--osans) !important;
 	 word-wrap: break-word;
 }
+a{
+	font-family: var(--nunito) !important;
+	font-weight: 600;
+}
 .vh-100{
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 }
 .social{
 	font-size: 1.5em;
 }
+.active{
+	background-color: #3F729B;
+	border-radius: 2px;
+}
+.active a{
+	color: #fff;
+	font-weight: bold;
+}
 #cv-download{
-	background-color: #2A023B;
+background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	color: #fff;
 }
 #cv-download:hover{
@@ -38,30 +59,10 @@ body{
 	font-size: 2.5em;
 	text-shadow: 1px 2px #000;
 }
-#portfolio-section{
-	min-height: 100vh;
-	height: auto;
-	background-color: #212121;
-}
-#experience-section{
-	min-height: 100vh;
-	height: auto;
-	background-color: #FF6348;
-}
-#education-section{
-	min-height: 100vh;
-	height: auto;
-	background-color: #2A023B;
-}
 #about-section{
-	min-height: 100vh;
 	height: auto;
 }
-#contact-section{
-	min-height: 100vh;
-	height: auto;
-	background-color: #E6E6F9;
-}
+
 .tag-line{
 	font-family: var(--josefin);
 }
@@ -82,7 +83,8 @@ a{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	#intro-section{
-	background-image: url('../uploads/img/crop.png');
+	/*background-image: url('../uploads/img/COVER.png');*/
+		background-color: #FFA62B;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -95,7 +97,8 @@ a{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	#intro-section{
-	background-image: url('../uploads/img/crop.png');
+	/*background-image: url('../uploads/img/COVER.png');*/
+		background-color: #FFA62B;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -105,7 +108,8 @@ a{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 	#intro-section{
-	background-image: url('../uploads/img/COVER.png');
+	/*background-image: url('../uploads/img/COVER.png');*/
+		background-color: #FFA62B;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -115,7 +119,7 @@ a{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 	#intro-section{
-	background-image: url('../uploads/img/COVER2.png');
+	/*background-image: url('../uploads/img/COVER2.png');*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -155,4 +159,22 @@ border-radius: 5px;
 .skill-30{
 	border-radius: 5px;
 	width: 30%; background-color: #107AF9;
+}
+#contact-form{
+	color: #000;
+	font-family: var(--nunito) !important;
+	font-weight: 600;
+}
+#contact-form:hover{
+-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+button{
+	font-family: var(--nunito) !important;
+	font-size: 14px !important;
+	text-transform: none !important;
+}
+textarea{
+	resize: none;
 }
