@@ -43,7 +43,6 @@
               <li>Email: oxino.renzchler@gmail.com</li>
               <li>Phone: +63 9270757234</li>
             </ul>
-
           </div>
         </div>
       </div>
@@ -54,7 +53,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">&copy; 2018
-      <a href="https://mdbootstrap.com/education/bootstrap/">The Boring Dev | Renzchler Oxiño</a>
+      <a href="">The Boring Dev | Renzchler Oxiño</a>
     </div>
     <!-- Copyright -->
 

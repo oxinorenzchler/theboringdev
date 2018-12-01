@@ -1,4 +1,4 @@
-<h2 class="m-0"><i class="fas fa-user-circle"></i> About Me</h2>
+<h3 class="m-0">About Me</h3>
 	<p class="grey-text font-weight-bold">Know me better</p>
 
 

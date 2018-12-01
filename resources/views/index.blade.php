@@ -37,11 +37,11 @@
 					<label class="">Phone or email address</label>
 					<input type="" name="" class="form-control">
 				</div>
+				<label>Message</label>
 				<div class="form-group">
-					<label>Message</label>
-					<textarea class="form-control"></textarea>
+					<textarea id="msg" class="form-control"></textarea>
 				</div>
-				<button class="btn  btn-warning">Submit</button>
+				<button class="btn btn-submit">Submit</button>
 			</form>
 		</div>	
 
@@ -49,27 +49,24 @@
 </div>
 
 
-<div class="container mb-5">
-	<div id="portfolio-section" class="mb-5">
+<div class="mb-5">
+	<div id="portfolio-section" class="container">
 		@include('partials.portfolio_section')
 	</div>
+</div>
+<div class="mb-5" style="background-color: #F5FFFA;">
+	<div class="skills-section container">
+		@include('partials.skills_section')
+	</div>
+</div>	
+<div id="qoute-container">
+	<div class="flex-center flex-column mask rgba-black-strong z-index-2">
+ <p class="text-center z-index-1 white-text">"Design is not just what it looks like and feels like. Design is how it works."</p>
+ <span class="white-text">-Steve Jobs</span>
+	</div>	
 
 	
-
-	<div id="experience-section" class="mb-5">
-		@include('partials.experience_section')
-	</div>
-
-	<div id="education-section" class="mb-5">
-		@include('partials.education_section')
-	</div>
-
-<div id="about-section">
-	@include('partials.about')
-</div>
-
-</div>
-
+</div>	
 <div class="">
 	@include('partials.footer')
 </div>

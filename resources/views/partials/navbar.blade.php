@@ -15,16 +15,7 @@
         <a class="nav-link text-uppercase" href="#portfolio-section">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#intro-section">Experience</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#intro-section">Education</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link text-uppercase" href="#">About</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">Contact</a>
       </li>
     </ul>
   </div>
