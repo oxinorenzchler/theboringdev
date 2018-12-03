@@ -71,6 +71,15 @@
     </div>
   </div>
   <div class="col-md-4">
-    <img src="https://cdn-images-1.medium.com/max/1200/1*frC0VgM2etsVCJzJrNMZTQ.png" class="img-fluid d-none d-md-block mx-auto" height="200" width="200">
+    <img src="{{ asset('svg/responsive.png') }}" class="img-fluid mb-5" style="object-fit: cover">
+   <div class="text-center">
+    <h4 class="h5">Recent Projects</h4>
+    <ul class="list-unstyled">
+      <li><a href="" class="grey-text">Trade Korea</a></li>
+      <li><a href="" class="grey-text">Wholesaler</a></li>
+      <li><a href="" class="grey-text">Decosense</a></li>
+      <li><a href="" class="grey-text">Shopper</a></li>
+    </ul>
+   </div>
   </div>
 </div>

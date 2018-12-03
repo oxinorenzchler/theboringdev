@@ -5,10 +5,10 @@
 
 	<div class="container row center text-white">
 		
-		<div class="col-md-8 text-uppercase">
-			<img src="https://cdn-images-1.medium.com/max/1200/1*frC0VgM2etsVCJzJrNMZTQ.png" class="img-fluid d-none d-md-block mx-auto" height="200" width="200">
+		<div class="col-lg-8 col-md-6 text-uppercase">
+			<img src="{{ asset('svg/whoot.png') }}" id="intro-img" class="img-fluid">
+			{{-- <img src="{{ asset('svg/gf.png') }}"  height="150"> --}}
 			<h1>Full stack web developer</h1>
-
 			<ul class="list-inline tag-line">
 				<li class="list-inline-item">Curious</li>
 				<li class="list-inline-item">|</li>
@@ -23,10 +23,11 @@
 				<li class="list-inline-item"><a href=""><i class="fab fa-facebook social"></i></a></li>
 				<li class="list-inline-item"><a href=""><i class="fab fa-twitter social"></i></a></li>
 			</ul>
-			<button class="btn btn-lg text-uppercase" id="cv-download">Download CV</button>	
+			{{-- <button class="btn btn-lg text-uppercase" id="cv-download">Download CV</button>	 --}}
+
 		</div>
-		<div class="col-md-4">
-			<form action="" method="POST" class="card p-3" id="contact-form">
+		<div class="col-lg-4 col-md-6">
+			<form action="" method="POST" class="card p-3 d-none d-md-block" id="contact-form">
 				@csrf
 				<h2 class="text-center">Let's talk!</h2>
 				<div class="form-group">
@@ -41,7 +42,7 @@
 				<div class="form-group">
 					<textarea id="msg" class="form-control"></textarea>
 				</div>
-				<button class="btn btn-submit">Submit</button>
+				<button class="btn btn-submit w-100 btn-sm">Submit</button>
 			</form>
 		</div>	
 

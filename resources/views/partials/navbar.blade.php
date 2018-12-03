@@ -4,18 +4,15 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="">
-    	<img src="{{ asset('uploads/img/boringdev-2.png') }}" height="50" width="100">
-    </a>
     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link text-uppercase" href="#intro-section">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#intro-section" title="Home Page"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#portfolio-section">Portfolio</a>
+        <a class="nav-link" href="#portfolio-section"><i class="fa fa-archive" aria-hidden="true"></i>Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-uppercase" href="#">About</a>
+        <a class="nav-link" href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>About</a>
       </li>
     </ul>
   </div>
