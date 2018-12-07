@@ -25,9 +25,12 @@ body{
 	word-wrap: break-word;
 }
 a{
-	font-family: var(--poppins) !important;
+	font-family: var(--osans) !important;
 }
-
+.qoute-text{
+	font-family: var(--indie);
+	text-shadow: 1px 1px 2px gray;
+}
 .vh-100{
 	min-height: 100vh;
 	height: auto;
@@ -108,6 +111,18 @@ img{
 a{
 	color: #5F2528;
 }
+#projects-container{
+/*	background-color:  #9BC53D;*/
+background-image: url('../uploads/img/space.jpg');
+background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+}
+/*#projects-card{
+	
+	background-repeat: no-repeat;
+	background-size: auto;
+}*/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -118,10 +133,30 @@ a{
 		background-size: cover;
 		background-attachment: fixed;
 	}
+	#navbar-menu{
+		background: rgba(0,0,0,0.9);
+		z-index: 2;
+		border-radius: 2px;
+	}
+	.nav-link{
+		color: #fff;
+		font-size: 12px;
+	}
+	#intro-brand{
+		z-index: 1;
+	}
+	#projects-card{
+		height: 300px;
+		overflow-y: auto;
+	}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...} 
+@media only screen and (min-width: 600px) {
+	.qoute-text{
+		font-size: 1.5em;
+	}
+} 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -143,6 +178,9 @@ a{
 		background-size: cover;
 		background-attachment: fixed;
 	}
+	.qoute-text{
+		font-size: 2em;
+	}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -156,6 +194,9 @@ a{
 	}
 	#intro-img{
 		height: 300px !important;
+	}
+	.qoute-text{
+		font-size: 2em;
 	}
 }
 
@@ -212,8 +253,8 @@ textarea{
 	background-color: rgb(9, 42, 72);
 }
 #qoute-container{
-	height: 300px; 
-	background-image:url('../svg/dev-bg.webp'); 
+	height: 300px;
+	background-image:url('../uploads/img/city.jpg'); 
 	background-repeat: no-repeat; 
 	background-attachment: fixed; 
 	background-size: cover;"

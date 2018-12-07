@@ -54,16 +54,16 @@
         </div>
       </div>
 
-         <div class="col-md-6">
+      <div class="col-md-6">
         <div class="media">
           <div class="media-icon p-2 mr-3">
             <img class="img-fluid media-icon-img" src="{{ asset('svg/seo-icon.webp') }}" alt="Responsive design">
           </div>
           <div class="media-body">
             <h4 class="mt-0 h5">SEO</h4>
-           <p class="grey-text">
+            <p class="grey-text">
               Valid mark-ups &amp; browser consistency. 
-           </p>
+            </p>
           </div>
         </div>
       </div>
@@ -72,14 +72,16 @@
   </div>
   <div class="col-md-4">
     <img src="{{ asset('svg/responsive.png') }}" class="img-fluid mb-5" style="object-fit: cover">
-   <div class="text-center">
-    <h4 class="h5">Recent Projects</h4>
-    <ul class="list-unstyled">
-      <li><a href="" class="grey-text">Trade Korea</a></li>
-      <li><a href="" class="grey-text">Wholesaler</a></li>
-      <li><a href="" class="grey-text">Decosense</a></li>
-      <li><a href="" class="grey-text">Shopper</a></li>
-    </ul>
-   </div>
+
+    <div class="text-center">
+      <h4 class="h5">Recent Projects</h4>
+      <ul class="list-unstyled">
+        <li><a href="" class="grey-text">Trade Korea</a></li>
+        <li><a href="" class="grey-text">Wholesaler</a></li>
+        <li><a href="" class="grey-text">Decosense</a></li>
+        <li><a href="" class="grey-text">Shopper</a></li>
+      </ul>
+    </div>
+    
   </div>
 </div>

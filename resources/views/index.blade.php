@@ -5,7 +5,7 @@
 
 	<div class="container row center text-white">
 		
-		<div class="col-lg-8 col-md-6 text-uppercase">
+		<div class="col-lg-8 col-md-6 text-uppercase" id="intro-brand">
 			<img src="{{ asset('svg/whoot.png') }}" id="intro-img" class="img-fluid">
 			{{-- <img src="{{ asset('svg/gf.png') }}"  height="150"> --}}
 			<h1>Full stack web developer</h1>
@@ -60,13 +60,12 @@
 		@include('partials.skills_section')
 	</div>
 </div>	
-<div id="qoute-container">
-	<div class="flex-center flex-column mask rgba-black-strong z-index-2">
- <p class="text-center z-index-1 white-text">"Design is not just what it looks like and feels like. Design is how it works."</p>
- <span class="white-text">-Steve Jobs</span>
-	</div>	
+<div id="qoute-container" class="view">
+	<div class="qoute flex-center flex-column mask rgba-black-strong">
+		 <p class="text-center z-index-1 white-text qoute-text shadow">"Design is not just what it looks like and feels like. Design is how it works."</p> 
+		 <span class="white-text qoute-text">-Steve Jobs</span>
+		</div>	
 
-	
 </div>	
 <div class="">
 	@include('partials.footer')

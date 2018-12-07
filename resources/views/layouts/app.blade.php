@@ -17,6 +17,9 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito|Indie+Flower|Josefin+Sans|Nunito|Open+Sans:600|Poppins" rel="stylesheet" type="text/css">
 
+
+
+
     <!-- Styles -->
     <!-- Bootstrap core CSS -->
   <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -43,5 +46,6 @@
   <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="{{ asset('js/mdb.min.js') }}"></script>
+  <script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
 </body>
 </html>
