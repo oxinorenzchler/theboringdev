@@ -6,13 +6,13 @@
   <div class="collapse navbar-collapse" id="navbar-menu">
       <ul class="navbar-nav mx-auto  mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="#intro-section" title="Home Page"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/" title="Home Page"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#portfolio-section"><i class="fa fa-archive" aria-hidden="true"></i>Projects</a>
+        <a class="nav-link" href="/projects"><i class="fa fa-archive" aria-hidden="true"></i>Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>About</a>
+        <a class="nav-link" href="/about"><i class="fa fa-user-circle" aria-hidden="true"></i>About</a>
       </li>
     </ul>
   </div>

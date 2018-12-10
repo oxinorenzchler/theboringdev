@@ -6,7 +6,7 @@
     <hr class="left">
   </div> 
   <p class="grey-text text-center mb-5">
-    Focus on mobile first website development.
+    Coding is the new fun.  
   </p>
 
   <div class="row">

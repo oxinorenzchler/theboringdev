@@ -2,8 +2,8 @@
 @section('content')
 <div id="intro-section" class="vh-100 mb-5">
 	@include('partials.navbar')
-
-	<div class="container row center text-white">
+	<div class="container mt-6">
+		<div class="row text-white">
 		
 		<div class="col-lg-8 col-md-6 text-uppercase" id="intro-brand">
 			<img src="{{ asset('svg/whoot.png') }}" id="intro-img" class="img-fluid">
@@ -47,15 +47,15 @@
 		</div>	
 
 	</div>
+	</div>
 </div>
 
-
 <div class="mb-5">
-	<div id="portfolio-section" class="container">
+	<div class="portfolio-section container">
 		@include('partials.portfolio_section')
 	</div>
 </div>
-<div class="mb-5" style="background-color: #F5FFFA;">
+<div class="mb-5" id="skills-section">
 	<div class="skills-section container">
 		@include('partials.skills_section')
 	</div>

@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 html{
 	scroll-behavior: smooth;
 	font-size: 14px;
@@ -69,8 +70,9 @@ a{
 	fill:  	rgb(9, 42, 72) !important;
 }
 .nav-link:hover{
-	color: white;
+
 }
+
 
 .left{
 	width: 70px;
@@ -91,10 +93,12 @@ a{
 	font-size: 2.5em;
 	text-shadow: 1px 2px #000;
 }
+#skills-section{
+	background: #F5FFFA;
+}
 #about-section{
 	height: auto;
 }
-
 .tag-line{
 	font-family: var(--josefin);
 }
@@ -112,17 +116,19 @@ a{
 	color: #5F2528;
 }
 #projects-container{
-/*	background-color:  #9BC53D;*/
-background-image: url('../uploads/img/space.jpg');
-background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
+
+	background: #649173;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-/*#projects-card{
-	
+#about-content{
+	background-image: url('../uploads/img/space.jpg');
 	background-repeat: no-repeat;
-	background-size: auto;
-}*/
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -167,6 +173,13 @@ background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
 	}
+	.mt-6{
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -181,6 +194,7 @@ background-repeat: no-repeat;
 	.qoute-text{
 		font-size: 2em;
 	}
+
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -198,6 +212,7 @@ background-repeat: no-repeat;
 	.qoute-text{
 		font-size: 2em;
 	}
+	
 }
 
 .divider{

@@ -15,7 +15,17 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::view('/projects', 'pages.projects');
-// Auth::routes();
+// Route::view('/project', 'pages.project_page');
+Route::view('/about', 'pages.about');
 
-// Route::get('/home', 'HomeController@index')->name('home');
+Auth::routes();
+
+Route::view('dashboard','auth.dashboard');
+
+Route::group(['middleware' => 'auth'], function(){
+
+	Route::resource('projects', 'ProjectController');
+
+});
+
+Route::resource('projects', 'ProjectController')->only(['index','show']);
