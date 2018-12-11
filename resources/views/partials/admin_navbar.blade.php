@@ -15,6 +15,10 @@
       <li class="nav-item">
         <a class="nav-link" href="{{ route('projects.create') }}">Add Project</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('messages.index') }}">View message</a>
+      </li>
+
     </ul>
   </div>
 </nav>

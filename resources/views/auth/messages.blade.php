@@ -1,13 +1,15 @@
 @extends('layouts.admin')
 @section('content')
 @if (Session::has('success_msg'))
-	{{Session::get('success_msg')}}
+{{Session::get('success_msg')}}
 @endif
 <div class="container">
     <table id="example" class="display" style="width:100%">
         <thead>
             <tr>
                 <th>Name</th>
+                <th>Contact</th>
+                <th>Message</th>
                 <th>Date</th>
                 <th>Action</th>
                 
@@ -15,17 +17,19 @@
             </tr>
         </thead>
         <tbody>
-            @foreach ($projects as $project)
+            @foreach ($messages as $message)
             <tr>
-                <td>{{$project->name}}</td>
-                <td>{{$project->created_at}}</td>
+                <td>{{$message->name}}</td>
+                <td>{{$message->contact}}</td>
+                <td>{{str_limit($message->message, 20)}}</td>
+                <td>{{$message->created_at}}</td>
                 <td>
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <a class="btn btn-sm btn-success" href="{{ route('projects.edit', ['id' => $project->id]) }}">View</a>
+                            <a class="btn btn-sm btn-success" href="{{ route('messages.show', ['id' => $message->id]) }}">View</a>
                         </li>
                         <li class="list-inline-item">
-                            <form action="{{ route('projects.destroy', ['id'=>$project->id]) }}" method="POST">
+                            <form action="{{ route('messages.destroy', ['id'=>$message->id]) }}" method="POST">
                                 @method('DELETE')
                                 @csrf
                                 <button class="btn btn-danger btn-sm">Del</button>
@@ -41,6 +45,8 @@
         <tfoot>
             <tr>
                 <th>Name</th>
+                <th>Contact</th>
+                <th>Message</th>
                 <th>Date</th>
                 <th>Action</th>
             </tr>

@@ -143,7 +143,7 @@ class ProjectController extends Controller
 
        Session::flash('success_msg', 'Data Edited');
 
-
+       return redirect()->back();
 
    }
 

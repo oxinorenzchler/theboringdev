@@ -6,11 +6,14 @@
 		@include('partials.breadcrumbs')
 		<!-- Title -->
 		<h1 class="card-title">{{$project->name}}</h1>
+		<a href="{{$project->site}}" target="_blank" class="blue-text"><u> {{$project->site}}</u></a>
 		<hr class="left">
+		<p class="grey-text">
+			{{$project->description}}
+		</p>
 		<div class="row mb-5">
 			<div class="col-md-9">
 				{!!$project->content!!}
-				<a href="" class="btn btn-primary">Visit site</a>
 			</div>
 			<div class="col-md-3">
 				<!-- Card -->
@@ -41,21 +44,13 @@
 					<h3 class="h5">Recent projects</h3>
 					<div id="recent-item">
 						<ul class="list-unstyled">
+							@foreach (App\Project::recent() as $recent)
+								{{-- expr --}}
 							<li>
-								<a href="" class="d-flex justify-content-between small"><span>Project name</span> <span class="font-italic">Aug 20, 2018</span></a>
+								<a href="" class="d-flex justify-content-between small"><span>{{$recent->name}}</span> <span class="font-italic">{{$recent->created_at->format('M d, Y')}}</span></a>
 							</li>
-							<li>
-								<a href="" class="d-flex justify-content-between small"><span>Project name</span> <span class="font-italic">Aug 20, 2018</span></a>
-							</li>
-							<li>
-								<a href="" class="d-flex justify-content-between small"><span>Project name</span> <span class="font-italic">Aug 20, 2018</span></a>
-							</li>
-							<li>
-								<a href="" class="d-flex justify-content-between small"><span>Project name</span> <span class="font-italic">Aug 20, 2018</span></a>
-							</li>
-							<li>
-								<a href="" class="d-flex justify-content-between small"><span>Project name</span> <span class="font-italic">Aug 20, 2018</span></a>
-							</li>
+						
+							@endforeach
 						</ul>
 					</div>
 				</div>

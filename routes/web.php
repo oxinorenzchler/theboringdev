@@ -26,6 +26,10 @@ Route::group(['middleware' => 'auth'], function(){
 
 	Route::resource('projects', 'ProjectController');
 
+	Route::resource('messages', 'MessageController');
+
 });
+
+Route::resource('messages', 'MessageController')->only(['store']);
 
 Route::resource('projects', 'ProjectController')->only(['index','show']);
