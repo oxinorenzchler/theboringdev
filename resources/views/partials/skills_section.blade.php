@@ -6,7 +6,7 @@
     <hr class="left">
   </div> 
   <p class="grey-text text-center mb-5">
-    Coding is the new fun.  
+    Started from the bottom now where here.  
   </p>
 
   <div class="row">

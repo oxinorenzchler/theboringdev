@@ -115,6 +115,10 @@ img{
 a{
 	color: #5F2528;
 }
+.featured-img{
+	border: 5px solid gray;
+	border-radius: 2px;
+}
 #projects-container{
 
 	background: #649173;  /* fallback for old browsers */
@@ -123,10 +127,8 @@ a{
 
 }
 #about-content{
-	background-image: url('../uploads/img/space.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+ 	text-indent: 50px;
+ 	word-wrap: break-word;
 }
 
 
@@ -158,6 +160,10 @@ a{
 	.featured-img{
 	height: 200px;
 	object-fit: cover;
+}
+
+#about-me-pic{
+	height: 200px !important;
 }
 } 
 

@@ -25,6 +25,12 @@
 			<input type="text" class="form-control" name="description" id="description" value="{{old('description')}}">
 		</div>
 		<div class="form-group">
+			<label id="site">
+				Site
+			</label>
+			<input type="text" class="form-control" name="site" id="site" value="{{old('description')}}">
+		</div>
+		<div class="form-group">
 			<label id="github">
 				Github
 			</label>

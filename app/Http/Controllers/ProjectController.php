@@ -50,6 +50,7 @@ class ProjectController extends Controller
             'name' => 'required|string',
             'description' => 'required|string',
             'content' => 'required|string',
+            'site' => 'required|string',
             'github' => 'string',
             'featured' => 'required|image|mimes:jpg,jpeg,png|max:2048'
         ];
@@ -60,6 +61,7 @@ class ProjectController extends Controller
         $project = new Project;
         $project->name = $request->name;
         $project->slug = str_slug($request->name);
+        $project->site = $request->site;
         $project->github = $request->github;
         $project->description = $request->description;
         $project->content = $request->content;
@@ -116,6 +118,7 @@ class ProjectController extends Controller
             'name' => 'required|string',
             'description' => 'required|string',
             'content' => 'required|string',
+            'site' => 'string',
             'github' => 'string',
             'featured' => 'image|mimes:jpg,jpeg,png|max:2048'
         ];
@@ -126,6 +129,7 @@ class ProjectController extends Controller
 
         $project->name = $request->name;
         $project->slug = str_slug($request->name);
+        $project->site = $request->site;
         $project->github = $request->github;
         $project->description = $request->description;
         $project->content = $request->content;

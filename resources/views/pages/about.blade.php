@@ -18,35 +18,15 @@
 		<p class="card-text white-text">
 			Coding is the new fun.  
 		</p>
-		<div class="card d-flex flex-center" id="about-content">
-			<!-- Card content -->
-			<div class="card-body">
-				<img src="{{ asset('uploads/img/me.jpg') }}" class="rounded-circle d-block mx-auto mb-3" width="200">
-
-				<div class="row">
-					<div class="col-md-8 offset-md-2">
-						<!-- Text -->
-						<div class="card-text white-text text-monospace rgba-black-strong p-5 rounded">
-							<h2 class="h4">Why do I code?</h2>
-							<p class="mb-3">
-								Some quick example text to build on the card title and make up the bulk of 
-								the card's content.
-							</p>
-						<h2 class="h4">Education</h2>
-						<ul class="text-left list-unstyled">
-							<li>dasdas</li>
-							<li>dsad</li>
-						</ul>
-						</div>
-
-
-					</div>
-				</div>
-
+		<div class="row">
+			<div class="col-md-6">
+				<img src="{{ asset('uploads/img/renz.png') }}" id="about-me-pic" class="d-block mx-auto img-fluid">
 			</div>
-
+			<div class="col-md-6">
+				<p id="about-content"><span class="h1">I</span>'m passionate with what I do. To me working as a web developer is a dream come true. I started with zero knowledge. To be honest I did not pay attention to programming while I was studying, I got distracted by video games. I got lost and forgot my dream, I considered myself as a failure. But it did not stop me I find myself I get back on track. So I studied back from the beginning and join a bootcamp to boost my confidence and also learn new things and engage with other developers. It really helped me a lot and everyday I practice what I learn and continue to study. No matter how many times you failed. Just keep moving forward.</p>
+				    <img src="{{ asset('svg/skills.webp') }}" class="img-fluid d-block mx-auto">
+			</div>
 		</div>
-		<!-- Card -->
 	</div>
 </div>
 <div class="">

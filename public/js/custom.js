@@ -13,6 +13,13 @@ $(document).ready(function(){
 		$('#contactModal').hide('slow');
 
 	}
+	
+	//Show error on mobile only
+	if(isMobile()){
+		$('#error-contact-modal').modal('show');
+	}
+
+	
 });
 
 
@@ -29,3 +36,9 @@ $(document).ready(function(){
  	}
 
  }
+
+ //detect mobile
+function isMobile() {
+  try{ document.createEvent("TouchEvent"); return true; }
+  catch(e){ return false; }
+}

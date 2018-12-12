@@ -12,23 +12,23 @@
           <div class=" flex-center">
 
             <!-- Linkedin -->
-            <a class="fb-ic">
+            <a class="fb-ic" href="https://www.linkedin.com/in/renzchler-oxi%C3%B1o-0a3aba160/" target="_blank">
               <i class="fab fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
             </a>
             <!-- Github -->
-            <a class="tw-ic">
+            <a class="tw-ic" href="https://github.com/oxinorenzchler" target="_blank">
               <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
             </a>
             <!-- Stackoverflow-->
-            <a class="gplus-ic">
+            <a class="gplus-ic" href="https://stackoverflow.com/users/9555319/renzchler" target="_blank">
               <i class="fab fa-stack-overflow  fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
             </a>
             <!--Facebook -->
-            <a class="li-ic">
+            <a class="li-ic" href="https://www.facebook.com/renzch.oxino" target="_blank">
               <i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
             </a>
             <!--Twitter -->
-            <a class="ins-ic">
+            <a class="ins-ic" href="https://twitter.com/iRenzOx" target="_blank">
               <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
             </a>
           </div>

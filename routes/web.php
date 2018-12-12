@@ -20,7 +20,14 @@ Route::view('/about', 'pages.about');
 
 Auth::routes();
 
+Route::fallback(function(){
+	abort(404);
+});
+
 Route::view('dashboard','auth.dashboard');
+
+
+$this->get('secured-admin-login', 'Auth\LoginController@showLoginForm')->name('login');
 
 Route::group(['middleware' => 'auth'], function(){
 

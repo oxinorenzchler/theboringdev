@@ -2,12 +2,12 @@
 @section('content')
 <div class="container">
 	@if (Session::has('success_msg'))
-		{{Session::get('success_msg')}}
+	{{Session::get('success_msg')}}
 	@endif
 	@if($errors)
-		@foreach ($errors->all() as $err)
-			{{$err}} <br>
-		@endforeach
+	@foreach ($errors->all() as $err)
+	{{$err}} <br>
+	@endforeach
 	@endif
 	<h1>Edit Project</h1>
 	<form action="{{ route('projects.update', ['id' => $project->id]) }}" method="POST" enctype="multipart/form-data">
@@ -24,6 +24,12 @@
 				Description
 			</label>
 			<input type="text" class="form-control" name="description" id="description" value="{{$project->description}}">
+		</div>
+		<div class="form-group">
+			<label id="site">
+				Site
+			</label>
+			<input type="text" class="form-control" name="site" id="site" value="{{$project->site}}">
 		</div>
 		<div class="form-group">
 			<label id="github">

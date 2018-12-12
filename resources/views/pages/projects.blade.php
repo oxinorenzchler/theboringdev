@@ -22,7 +22,7 @@
 						<img class="card-img-top featured-img" src="{{ asset($project->featured) }}" alt="{{$project->name}}">
 						<div class="mask flex-center rgba-black-strong">
 							<a href="{{ route('projects.show', ['project' => $project->slug]) }}" class="white-text">View</a>
-							<a class="github-fork-ribbon" href="{{$project->github}}" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">
+							<a class="github-fork-ribbon" href="{{$project->github}}" data-ribbon="Fork me on GitHub" title="Fork me on GitHub" target="_blank">
 							</div>
 
 						</div>

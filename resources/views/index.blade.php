@@ -17,17 +17,17 @@
 					<li class="list-inline-item">Capable </li>
 				</ul>
 				<ul class="list-inline">
-					<li class="list-inline-item"><a href=""><i class="fab fa-linkedin social"></a></i></li>
-					<li class="list-inline-item"><a href=""><i class="fab fa-github social"></i></a></li>
-					<li class="list-inline-item"><a href=""><i class="fab fa-stack-overflow social"></i></a></li>
-					<li class="list-inline-item"><a href=""><i class="fab fa-facebook social"></i></a></li>
-					<li class="list-inline-item"><a href=""><i class="fab fa-twitter social"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.linkedin.com/in/renzchler-oxi%C3%B1o-0a3aba160/" target="_blank"><i class="fab fa-linkedin social"></a></i></li>
+					<li class="list-inline-item"><a href="https://github.com/oxinorenzchler" target="_blank"><i class="fab fa-github social"></i></a></li>
+					<li class="list-inline-item"><a href="https://stackoverflow.com/users/9555319/renzchler" target="_blank"><i class="fab fa-stack-overflow social"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.facebook.com/renzch.oxino" target="_blank"><i class="fab fa-facebook social"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/iRenzOx" target="_blank"><i class="fab fa-twitter social"></i></a></li>
 				</ul>
 				{{-- <button class="btn btn-lg text-uppercase" id="cv-download">Download CV</button>	 --}}
 
 			</div>
 			<div class="col-lg-4 col-md-6">
-				<button class="btn btn-danger btn-sm d-none d-md-none d-block"  data-toggle="modal" data-target="#contactModal">Beep me!</button>
+				<button class="btn btn-submit btn-sm d-none d-md-none d-block"  data-toggle="modal" data-target="#contact-form-modal">Beep me!</button>
 				<form action="{{ route('messages.store') }}" method="POST" class="card p-3 d-none d-md-block" id="contact-form">
 					@csrf
 					<h2 class="text-center">Let's talk!</h2>
@@ -91,22 +91,7 @@
 </div>
 
 
-<!-- Confirmation Modal -->
-<div class="modal fight fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
-  <div class="modal-dialog modal-side modal-top-left" role="document">
-    <div class="modal-content">
-      <div class="modal-body text-center p-5">
-      	<img src="{{ asset('svg/received-icon.png') }}" class="d-block mx-auto">
-       <h3>Awesome!</h3>
-       <p class="card-text">
-       	I have received your message. Thank you for your time. I will response within 24 hours.
-       </p>
-        <button type="button" class="btn btn-warning btn-sm d-block w-100" data-dismiss="modal">Ok</button>
-      </div>
-    </div>
-  </div>
-</div>
-
+@include('partials.contact_modal')
 
 @endsection
 
